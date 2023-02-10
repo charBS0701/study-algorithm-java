@@ -1,4 +1,4 @@
-package problem;
+package problem.순열검사;
 //순열 검사
 //https://campus.programmers.co.kr/courses/16066/lessons/148367?language=java
 //[4, 1, 3, 2]	true
@@ -19,7 +19,7 @@ class Solution {
     }
 }
 
-public class P148367 {
+public class 순열검사 {
     public static void main(String[] args) {
         Utils.print(new Solution().solution(new int[] {4, 1, 3, 2}));
         Utils.print(new Solution().solution(new int[] {4, 1, 3}));
